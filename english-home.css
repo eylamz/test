@@ -1,0 +1,145 @@
+/* First Container CSS */
+.first-container {
+    width: 100wh;
+    background-color: var(--enboss-secondary);
+  }
+
+  .top-container {
+    font-family: "Poppins", Sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 635px;
+    height: 90vh;
+    background-color: var(--enboss-secondary);
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .topEnboss {
+    margin-bottom: 30px;
+    width: 580px;
+  }
+
+  .heading1 {
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: var(--enboss-primary);
+    word-spacing: 0.1em;
+    letter-spacing: 1.5px;
+  }
+
+  .top-line {
+    margin: 20px 0;
+    border: 1px solid var(--white-100);
+    border-radius: 5px;
+    width: 150px;
+  }
+
+  .atEnboss {
+    color: var(--white-100);
+    
+    font-size: 18px;
+    font-weight: 500;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+  }
+
+
+   /*     First Container Media Queries      */
+  @media only screen and (max-width: 1024px) {
+    .top-container {
+    width: 510px;
+    height: 90vh;
+   }
+  
+   .topEnboss {
+    width: 375px;
+    margin-bottom: 30px;
+  }
+
+  .heading1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  .top-line {
+    width: 120px;
+  }
+
+  .atEnboss {
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    line-height: 21px;
+    width: 500px;
+  }
+  }
+
+  @media only screen and (max-width: 767px) {  
+    .top-container {
+    width: 365px;
+    height: 90vh;
+   }
+
+   .topEnboss {
+    margin-bottom: 15px;
+    width: 300px;
+  }
+
+  .heading1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+  }
+
+  .top-line {
+    margin: 10px 0;
+    width: 90px;
+  }
+
+  .atEnboss {
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    width: 360px;
+  }
+  }
+  @media only screen and (max-width: 350px) {  
+    .top-container {
+    width: 265px;
+    height: 90vh;
+   }
+
+   .topEnboss {
+    margin-bottom: 10px;
+    width: 250px;
+  }
+
+  .heading1 {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+  }
+
+  .top-line {
+    margin: 10px 0;
+    width: 70px;
+  }
+
+  .atEnboss {
+    font-size: 14px;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    width: 260px;
+  }
+  }
